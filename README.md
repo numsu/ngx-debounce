@@ -1,15 +1,15 @@
-[![npm version](https://badge.fury.io/js/angular2-debounce.svg)](https://www.npmjs.com/package/angular2-debounce)
+[![npm version](https://badge.fury.io/js/ngx-debounce.svg)](https://www.npmjs.com/package/ngx-debounce)
 
-# angular2-debounce
+# ngx-debounce
 
-***angular2-debounce*** is an Angular2 directive that adds a debounce to your input fields.
+***ngx-debounce*** is an Angular directive that adds a debounce to your input fields.
 
 It delays the start of a function call after every keyup -event.
 
 ## Installation:
 
 ```bash
-npm install angular2-debounce --save
+npm i ngx-debounce --save
 ```
 
 ## Use Example:
@@ -17,21 +17,23 @@ npm install angular2-debounce --save
 Add the declaration to your @NgModule:
 
 ```typescript
-import {Debounce} from 'angular2-debounce';
+import {DebounceModule} from 'ngx-debounce';
 
 ...
 
 @NgModule({
-  declarations: [
-    Debounce
+  ...
+  Imports: [
+    DebounceModule
   ]
+  ...
 })
 ```
 
 Use directly inside your HTML templates
 
 ```
-<input debounce [delay]="700" (func)="myDebouncedFunction()" [(ngModel)]="..." name="Debounce input" class="form-control input-sm">
+<input debounce [delay]="700" (func)="myDebouncedFunction()" [(ngModel)]="..." name="Debounce input">
 ```
 
 ## Author
