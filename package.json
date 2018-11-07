@@ -1,6 +1,6 @@
 {
     "name": "ngx-debounce",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Directive that adds a debounce effect (delay) to your input fields.",
     "repository": {
         "type": "git",
