@@ -1,0 +1,26 @@
+{
+    "name": "ngx-debounce",
+    "version": "2.0.0",
+    "description": "Directive that adds a debounce effect (delay) to your input fields.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/numsu/ngx-debounce.git"
+    },
+    "keywords": [
+        "ng2",
+        "ngx",
+        "angular",
+        "angular2",
+        "debounce",
+        "input",
+        "delay",
+        "@angular"
+    ],
+    "author": "Miro Metsänheimo <miro@metsanheimo.fi> (https://miro.metsanheimo.fi)",
+    "main": "ngx-debounce.ts",
+    "license": "MIT",
+    "peerDependencies": {
+        "@angular/common": "^7.0.0",
+        "@angular/core": "^7.0.0"
+    }
+}
